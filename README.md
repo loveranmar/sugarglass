@@ -20,6 +20,37 @@
   <img src="screenshots/after.png" alt="Discord with sugarglass" width="900" />
 </p>
 
+### What changed
+
+| Part of Discord                      | Stock Discord                          | sugarglass                                                                              |
+|--------------------------------------|----------------------------------------|-----------------------------------------------------------------------------------------|
+| **Server list**                      | One column, white dot for unread       | Two-column grid; unread servers get a ring that cycles through the rainbow              |
+| **Home button**                      | Discord logo, with a line under it     | An anime picture you can change, no line                                                |
+| **Background**                       | Solid gray                             | Your wallpaper, behind a dark purple tint and a soft pastel rainbow wash                |
+| **Channel list and member list**     | Gray panels                            | Faintly tinted glass                                                                    |
+| **Title bar**                        | Plain                                  | A moving rainbow line underneath and a rainbow window title                             |
+| **Channel name at the top**          | White                                  | Moving rainbow text                                                                     |
+| **User panel** (bottom left)         | Gray box                               | Rounded and frosted, with a moving rainbow border                                       |
+| **Message box**                      | Gray box                               | Rounded dark purple, with a faint rainbow edge that lights up fully while you type      |
+| **Font**                             | gg sans                                | Fredoka Chunky, a rounded font one weight heavier than normal                           |
+| **Text**                             | White and gray                         | A bit brighter, with a soft pink tint and a light shadow so it reads over the wallpaper |
+| **Selected and hovered channels**    | Gray                                   | Pink when selected, lavender on hover                                                   |
+| **Mentions**                         | Blue @name pills, yellow highlight     | Pink @name pills, pink highlight on messages that ping you                              |
+| **Notification badges**              | Red                                    | Hot pink                                                                                |
+| **Links**                            | Blue                                   | Sky blue                                                                                |
+| **Scrollbars**                       | Gray                                   | Pink                                                                                    |
+| **Text selection**                   | Your system's default color            | Pink                                                                                    |
+| **Server icons on hover**            | No glow                                | Soft pink glow                                                                          |
+| **Right-click menus**                | Gray, gray highlight                   | Rounded dark purple glass, pink-to-lavender highlight                                   |
+| **Popouts, tooltips, emoji picker**  | Gray                                   | Rounded dark purple, slightly see-through with blur                                     |
+| **Settings and pop-up windows**      | Gray                                   | Mostly solid dark purple so they stay readable                                          |
+| **Nitro, Shop and Quests links**     | Shown above your DMs                   | Hidden                                                                                  |
+| **Profile frames and effects**       | Shown (like the cat frame and sparkles in the screenshot) | Hidden                                                                   |
+| **Avatar decorations**               | Shown (like the halo and hands)        | Hidden                                                                                  |
+| **Nameplates**                       | Picture behind names in the DM list    | Hidden                                                                                  |
+| **Fancy name fonts and effects**     | Shown                                  | Hidden; names use the normal theme font                                                 |
+| **Profile theme colors**             | Shown                                  | Hidden with the [NoProfileThemes](#recommended-plugin) plugin; CSS alone can't do this  |
+
 ## What is sugarglass?
 
 sugarglass is a [Vencord](https://vencord.dev) theme. It keeps the layout from [NotAnotherAnimeTheme](https://github.com/puckzxz/NotAnotherAnimeTheme): servers in a two-column grid and a rainbow ring on unread servers. On top of that it adds pastel rainbow colors, a rounded font and a light touch of frosted glass. With window transparency turned on, your desktop wallpaper shows through Discord behind a soft tint. It also hides the Nitro clutter: profile frames, decorations, nameplates, fancy name fonts and the Nitro/Shop/Quests links.
