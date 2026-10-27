@@ -1,4 +1,4 @@
-<h1 align="center">NAAT Glass</h1>
+<h1 align="center">sugarglass</h1>
 
 <p align="center">
   <strong>A pastel rainbow Discord theme for Vencord: NotAnotherAnimeTheme's server grid, a chunky rounded font, and your wallpaper glowing through the window.</strong>
@@ -14,15 +14,15 @@
   <img src="screenshots/before.png" alt="Stock Discord" width="900" />
 </p>
 
-**After:** NAAT Glass with window transparency on
+**After:** sugarglass with window transparency on
 
 <p align="center">
-  <img src="screenshots/after.png" alt="Discord with NAAT Glass" width="900" />
+  <img src="screenshots/after.png" alt="Discord with sugarglass" width="900" />
 </p>
 
-## What is NAAT Glass?
+## What is sugarglass?
 
-NAAT Glass is a [Vencord](https://vencord.dev) theme. It keeps the layout from [NotAnotherAnimeTheme](https://github.com/puckzxz/NotAnotherAnimeTheme): servers in a two-column grid and a rainbow ring on unread servers. On top of that it adds pastel rainbow colors, a rounded font and a light touch of frosted glass. With window transparency turned on, your desktop wallpaper shows through Discord behind a soft tint. It also hides the Nitro clutter: profile frames, decorations, nameplates, fancy name fonts and the Nitro/Shop/Quests links.
+sugarglass is a [Vencord](https://vencord.dev) theme. It keeps the layout from [NotAnotherAnimeTheme](https://github.com/puckzxz/NotAnotherAnimeTheme): servers in a two-column grid and a rainbow ring on unread servers. On top of that it adds pastel rainbow colors, a rounded font and a light touch of frosted glass. With window transparency turned on, your desktop wallpaper shows through Discord behind a soft tint. It also hides the Nitro clutter: profile frames, decorations, nameplates, fancy name fonts and the Nitro/Shop/Quests links.
 
 ## Features
 
@@ -41,26 +41,26 @@ You need [Vencord](https://vencord.dev) installed. There are two ways to add the
 **Option 1: Online theme (auto-updates).** Open Discord Settings, go to `Themes` (under Vencord Settings), open the `Online Themes` tab and paste this link:
 
 ```
-https://cdn.jsdelivr.net/gh/loveranmar/naat-glass@main/NAATGlass.theme.css
+https://cdn.jsdelivr.net/gh/loveranmar/sugarglass@main/sugarglass.theme.css
 ```
 
-**Option 2: Local file (best if you want to tweak it).** Download `NAATGlass.theme.css` into your Vencord themes folder:
+**Option 2: Local file (best if you want to tweak it).** Download `sugarglass.theme.css` into your Vencord themes folder:
 
 ```bash
 # Linux
-curl -L -o ~/.config/Vencord/themes/NAATGlass.theme.css \
-  https://raw.githubusercontent.com/loveranmar/naat-glass/main/NAATGlass.theme.css
+curl -L -o ~/.config/Vencord/themes/sugarglass.theme.css \
+  https://raw.githubusercontent.com/loveranmar/sugarglass/main/sugarglass.theme.css
 
 # macOS
-curl -L -o ~/Library/Application\ Support/Vencord/themes/NAATGlass.theme.css \
-  https://raw.githubusercontent.com/loveranmar/naat-glass/main/NAATGlass.theme.css
+curl -L -o ~/Library/Application\ Support/Vencord/themes/sugarglass.theme.css \
+  https://raw.githubusercontent.com/loveranmar/sugarglass/main/sugarglass.theme.css
 
 # Windows (PowerShell)
-Invoke-WebRequest https://raw.githubusercontent.com/loveranmar/naat-glass/main/NAATGlass.theme.css `
-  -OutFile "$env:APPDATA\Vencord\themes\NAATGlass.theme.css"
+Invoke-WebRequest https://raw.githubusercontent.com/loveranmar/sugarglass/main/sugarglass.theme.css `
+  -OutFile "$env:APPDATA\Vencord\themes\sugarglass.theme.css"
 ```
 
-Not sure where your themes folder is? `Themes -> Local Themes -> Open Themes Folder` opens it. Then turn on **NAAT Glass** in the Local Themes list. If you use another theme like NotAnotherAnimeTheme, turn it off; they set the same values.
+Not sure where your themes folder is? `Themes -> Local Themes -> Open Themes Folder` opens it. Then turn on **sugarglass** in the Local Themes list. If you use another theme like NotAnotherAnimeTheme, turn it off; they set the same values.
 
 ## See-through window
 
@@ -81,7 +81,7 @@ Turn on **NoProfileThemes** in `Settings -> Plugins` (under Vencord Settings), t
 
 ## Customization
 
-With the local file, open `NAATGlass.theme.css` and edit the variables near the top. Vencord reloads the theme the moment you save.
+With the local file, open `sugarglass.theme.css` and edit the variables near the top. Vencord reloads the theme the moment you save.
 
 | Variable                   | What it changes                                                         | Default                      |
 |----------------------------|-------------------------------------------------------------------------|------------------------------|
@@ -111,7 +111,7 @@ Using the online link instead? Override any variable with `Themes -> Edit QuickC
 ## Good to know
 
 - **Your own Nitro extras are hidden too.** CSS can't tell your profile apart from anyone else's.
-- **Discord updates can break things.** Discord renames its internal class names from time to time. If something stops looking right, [open an issue](https://github.com/loveranmar/naat-glass/issues).
+- **Discord updates can break things.** Discord renames its internal class names from time to time. If something stops looking right, [open an issue](https://github.com/loveranmar/sugarglass/issues).
 - **Tested on** the Discord desktop app with Vencord on Linux (Hyprland).
 
 ## Credits
