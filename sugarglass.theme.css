@@ -225,10 +225,10 @@
 }
 
 /* The main app (servers, channels, chat): see-through */
-.baseLayer__960e4,
-.baseLayer__960e4 .theme-dark,
-.baseLayer__960e4 .theme-darker,
-.baseLayer__960e4 .theme-midnight {
+.baseLayer_Fd0FEH,
+.baseLayer_Fd0FEH .theme-dark,
+.baseLayer_Fd0FEH .theme-darker,
+.baseLayer_Fd0FEH .theme-midnight {
   --background-base-lowest: transparent;
   --background-base-lower: transparent;
   --background-base-low: var(--glass-panel);
@@ -248,13 +248,13 @@
 */
 html,
 body,
-.app__160d8,
-.layers__160d8,
-.bg__960e4 {
+.app_QbT-Jy,
+.layers_QbT-Jy,
+.bg_Fd0FEH {
   background: transparent !important;
 }
 
-.appMount__51fd7 {
+.appMount_gEkNtR {
   background:
     var(--rainbow-wash),
     linear-gradient(var(--theme-transparency), var(--theme-transparency)),
@@ -270,14 +270,14 @@ body,
   Settings and other full screen pages get their own backing so the chat
   behind doesn't show through
 */
-.layer__960e4:not(.baseLayer__960e4) {
+.layer_Fd0FEH:not(.baseLayer_Fd0FEH) {
   background: var(--settings-background);
 }
 
 /*
   Rainbow line under the title bar
 */
-.bar_c38106::after {
+.bar_3zSH5d::after {
   content: "";
   position: absolute;
   inset: auto 0 0 0;
@@ -292,8 +292,8 @@ body,
 /*
   Rainbow text: window title, channel name
 */
-.title_c38106,
-.title__9293f {
+.title_3zSH5d,
+.title_ybUK7Z {
   background: var(--rainbow);
   background-size: 200% 100%;
   -webkit-background-clip: text;
@@ -306,28 +306,28 @@ body,
 /*
   Side panels
 */
-.sidebar__5e434 {
+.sidebar_pog62O {
   background: transparent;
 }
 
-.sidebarList__5e434,
-.members_c8ffbb {
+.sidebarList_pog62O,
+.members_86es0b {
   background: var(--glass-panel);
 }
 
-.container__9293f,
-.themed__9293f {
+.container_ybUK7Z,
+.themed_ybUK7Z {
   background: transparent !important;
 }
 
 /*
   Server icons glow on hover
 */
-.listItem__650eb svg:has(> foreignObject) {
+.listItem_rwEpIL svg:has(> foreignObject) {
   transition: filter 0.2s ease;
 }
 
-.listItem__650eb svg:has(> foreignObject):hover {
+.listItem_rwEpIL svg:has(> foreignObject):hover {
   filter: drop-shadow(0 0 6px rgba(255, 143, 207, 0.75));
 }
 
@@ -336,15 +336,15 @@ body,
   The background sits on a ::before layer so popouts opened from inside
   (status menu, audio settings) still position correctly
 */
-.panels__5e434 {
+.panels_pog62O {
   isolation: isolate;
   background: transparent;
   border: none;
   border-radius: var(--glass-radius);
 }
 
-.panels__5e434::before,
-.panels__5e434::after {
+.panels_pog62O::before,
+.panels_pog62O::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -352,15 +352,15 @@ body,
   pointer-events: none;
 }
 
-.panels__5e434::before {
+.panels_pog62O::before {
   z-index: -1;
   background: var(--glass-surface);
   backdrop-filter: blur(var(--glass-blur));
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-.panels__5e434::after,
-.channelTextArea__74017::after {
+.panels_pog62O::after,
+.channelTextArea_2x8-Qn::after {
   padding: 1.5px;
   background: var(--rainbow);
   background-size: 200% 100%;
@@ -373,11 +373,11 @@ body,
 /*
   Message box: soft pink edge, full rainbow edge while typing
 */
-.channelTextArea_f75fb0 {
+.channelTextArea_z_gUBg {
   background: transparent;
 }
 
-.channelTextArea__74017 {
+.channelTextArea_2x8-Qn {
   isolation: isolate;
   background: transparent;
   border: none;
@@ -385,8 +385,8 @@ body,
 }
 
 /* Background + blur on a ::before layer so the emoji picker still positions correctly */
-.channelTextArea__74017::before,
-.channelTextArea__74017::after {
+.channelTextArea_2x8-Qn::before,
+.channelTextArea_2x8-Qn::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -394,34 +394,34 @@ body,
   pointer-events: none;
 }
 
-.channelTextArea__74017::before {
+.channelTextArea_2x8-Qn::before {
   z-index: -1;
   background: var(--message-box-transparency);
   backdrop-filter: blur(var(--glass-blur));
   transition: background-color 0.2s ease;
 }
 
-.channelTextArea__74017::after {
+.channelTextArea_2x8-Qn::after {
   opacity: 0.35;
   transition: opacity 0.2s ease;
 }
 
-.channelTextArea__74017:focus-within::before {
+.channelTextArea_2x8-Qn:focus-within::before {
   background: var(--message-box-focus);
 }
 
-.channelTextArea__74017:focus-within::after {
+.channelTextArea_2x8-Qn:focus-within::after {
   opacity: 1;
 }
 
-.channelTextArea__74017 .scrollableContainer__74017 {
+.channelTextArea_2x8-Qn .scrollableContainer_2x8-Qn {
   background: transparent;
 }
 
 /*
   Popouts
 */
-.menu_c1e9c4 {
+.menu_M3qk4j {
   position: relative;
   background: transparent;
   border: none;
@@ -429,7 +429,7 @@ body,
   box-shadow: none;
 }
 
-.menu_c1e9c4::before {
+.menu_M3qk4j::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -441,26 +441,26 @@ body,
   box-shadow: var(--glass-shadow);
 }
 
-.menu_c1e9c4 .item_c1e9c4 {
+.menu_M3qk4j .item_M3qk4j {
   border-radius: calc(var(--glass-radius) - 6px);
 }
 
-.menu_c1e9c4 .item_c1e9c4.focused_c1e9c4 {
+.menu_M3qk4j .item_M3qk4j.focused_M3qk4j {
   background: linear-gradient(90deg, rgba(255, 143, 207, 0.38), rgba(185, 163, 255, 0.28));
   color: #fff;
 }
 
 .user-profile-popout,
-.root__49fc1,
-.contentWrapper__08434,
-.autocomplete__13533 {
+.root__KoJTP,
+.contentWrapper_58b0l2,
+.autocomplete_CAMiwx {
   border: none;
   border-radius: var(--glass-radius);
   box-shadow: var(--glass-shadow);
   backdrop-filter: blur(var(--glass-blur));
 }
 
-.tooltipPrimary_c36707 {
+.tooltipPrimary_3_v8qp {
   border-radius: 10px;
   backdrop-filter: blur(var(--glass-blur));
 }
@@ -472,8 +472,8 @@ body,
 */
 
 /* Profile frames (like the cat frame) */
-.profileFrameContainer__7d80f,
-.profileFrameLayer__7d80f {
+.profileFrameContainer_v8co33,
+.profileFrameLayer_v8co33 {
   display: none !important;
 }
 
@@ -484,14 +484,14 @@ body,
 }
 
 /* Profile effects (sparkles and animations over profiles) */
-.profileEffects__0dd08 {
+.profileEffects_ZjcCyW {
   display: none !important;
 }
 
 /* Avatar decorations */
-.avatarDecorationContainer__44b0c,
-.avatarDecoration__44b0c,
-.avatarDecoration_c19a55,
+.avatarDecorationContainer_XpIUHy,
+.avatarDecoration_XpIUHy,
+.avatarDecoration_2i8Bfm,
 img[src*="avatar-decoration-presets"] {
   display: none !important;
 }
@@ -505,26 +505,26 @@ video:has(source[src*="collectibles"]) {
 
 /* The nameplate's color fade. Kept to the DM and member lists: in chat the same
    kind of image sits next to the message text, which would hide the message */
-.channel__972a0 :has(> img[src*="collectibles"]),
-.channel__972a0 :has(> video[src*="collectibles"]),
-.member_c8ffbb :has(> img[src*="collectibles"]),
-.member_c8ffbb :has(> video[src*="collectibles"]) {
+.channel_zln_tS :has(> img[src*="collectibles"]),
+.channel_zln_tS :has(> video[src*="collectibles"]),
+.member_86es0b :has(> img[src*="collectibles"]),
+.member_86es0b :has(> video[src*="collectibles"]) {
   display: none !important;
 }
 
 /* Fancy name fonts and effects */
-.dnsFont__89a31 {
+.dnsFont_OAgVZM {
   font-family: inherit !important;
 }
 
-.container_dfb989 .solid_dfb989,
-.container_dfb989 .gradient_dfb989,
-.container_dfb989 .prism_dfb989,
-.container_dfb989 .neon_dfb989,
-.container_dfb989 .toon_dfb989,
-.container_dfb989 .pop_dfb989,
-.container_dfb989 .gummy_dfb989,
-.container_dfb989 .gummyLetter_dfb989 {
+.container_or4Hj- .solid_or4Hj-,
+.container_or4Hj- .gradient_or4Hj-,
+.container_or4Hj- .prism_or4Hj-,
+.container_or4Hj- .neon_or4Hj-,
+.container_or4Hj- .toon_or4Hj-,
+.container_or4Hj- .pop_or4Hj-,
+.container_or4Hj- .gummy_or4Hj-,
+.container_or4Hj- .gummyLetter_or4Hj- {
   color: inherit !important;
   background: none !important;
   -webkit-text-fill-color: currentColor !important;
@@ -534,15 +534,18 @@ video:has(source[src*="collectibles"]) {
   animation: none !important;
 }
 
-.container_dfb989 [class*="_dfb989"]::before,
-.container_dfb989 [class*="_dfb989"]::after {
+.container_or4Hj- [class*="_or4Hj-"]::before,
+.container_or4Hj- [class*="_or4Hj-"]::after {
   display: none !important;
 }
 
 /*
   Hide the Nitro, Shop and Quests links above your DMs.
-  Delete this section to get them back
+  Delete this section to get them back.
+  The second selector only matches on the part of the class name Discord
+  doesn't scramble, so it keeps working when they reshuffle class names
 */
-.channel__972a0:has(a[href="/store"], a[href="/shop"], a[href="/quest-home"], a[href="/discovery/quests"]) {
+.channel_zln_tS:has(a[href="/store"], a[href="/shop"], a[href="/quest-home"], a[href="/discovery/quests"]),
+li[class*="channel_"]:has(a[href="/store"], a[href="/shop"], a[href="/quest-home"], a[href="/discovery/quests"]) {
   display: none !important;
 }
